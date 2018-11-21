@@ -1,0 +1,116 @@
+
+body {
+  <link href="https://fonts.googleapis.com/css?family=Muli rel="stylesheet">;
+  font-family: 'Cabin', sans-serif;
+  background-color: #ffedee;
+  color: #300f1b;
+}
+
+.container{
+  padding-top: 40px;
+  background-color: #fff7f7;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d34c92;
+
+
+}
+
+nav li2 a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 52px;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+nav li2 a:hover{
+      background-color: #ea96c1;
+      color: white;
+}
+
+nav li {
+    float: right;
+    align: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #ea96c1;
+    text-color: white;
+}
+
+.button {
+    background-color: #d34c92;
+    border: solid;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+.button:hover {
+  border: solid;
+  color: white;
+  border-radius: 12px;
+  background-color: #ea96c1;
+
+
+  }
+
+.button:active {
+  background-color: #ea96c1;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky +{
+  padding-top: 60px;
+}
+
+.row{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;}
+}
+
+.card {
+
+  height: 100%;
+}
